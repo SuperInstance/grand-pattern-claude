@@ -1,0 +1,13 @@
+[package]
+name = "grand-pattern"
+version = "0.1.0"
+edition = "2021"
+description = "Grand Pattern — cellular graph consciousness engine (Claude entry)"
+
+[[bin]]
+name = "grand-pattern"
+path = "src/main.rs"
+
+[lib]
+name = "grand_pattern"
+path = "src/lib.rs"
